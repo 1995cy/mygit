@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1437795083 source:/home/cy/try/fef/main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1440986200 source:/home/cy/try/Linux_p/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<pthread.h>
+
