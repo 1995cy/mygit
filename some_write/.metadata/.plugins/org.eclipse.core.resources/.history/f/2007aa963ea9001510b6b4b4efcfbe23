@@ -1,0 +1,15 @@
+/*
+ * try.c
+ *
+ *  Created on: 2015年12月23日
+ *      Author: cy
+ */
+#include "../try.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void t(){
+	printf("ffdfe\n");
+}
+
