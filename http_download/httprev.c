@@ -36,6 +36,7 @@ FILE *create_file(const char*file_name){
         perror("打开或者创建文件失败");
         return NULL;
     }
+    return fp;
 }
 
 struct http_receive * create_rec(){
@@ -100,7 +101,7 @@ int receiver(int sock_fd,struct http_receive *rec,const char *file_name){
 printf("%d\n",er);
             if(er < 0){
                 perror("接收失败");
-                close(file);
+                fclose(file);
                 return -1;
             }
 
@@ -118,6 +119,6 @@ printf("\n%s\n\n\n\n",buf);
 
     }
 
-    close(file);
+    fclose(file);
     return 0;
 }
