@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image/line.png</file>
+        <file>image/pencil.png</file>
+        <file>image/round.png</file>
+        <file>image/size.png</file>
+        <file>image/crop_square.png</file>
+        <file>image/logo.png</file>
+        <file>image/back.png</file>
+        <file>image/draw.png</file>
+        <file>image/turn_right.png</file>
+        <file>image/blackboard.png</file>
+    </qresource>
+</RCC>
