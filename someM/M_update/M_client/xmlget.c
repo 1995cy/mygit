@@ -1,0 +1,69 @@
+#include <mxml.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include  "xmlget.h"
+#include "httprev.h"
+
+int getxmlval(struct xmlVal *valget){
+    FILE *fp = NULL;
+    mxml_node_t * xml = NULL;
+    mxml_node_t * node = NULL;
+    int er = 0;
+
+    fp = fopen("update.xml", "r");
+    if(fp < 0)
+    {
+        perror("升级配置文件已被破坏或丢失");
+        return -1;
+    }
+    xml = mxmlLoadFile(NULL,fp, MXML_TEXT_CALLBACK);
+    close(fp);
+
+   er = find_node(xml,"version",valget->version);
+   if(er < 0){
+        mxmlDelete(xml);
+        return -1;
+   }
+
+    mxmlDelete(xml);
+    return 0;
+}
+
+int find_node(mxml_node_t *xml ,char *name,char *node_val){
+    mxml_node_t *node = NULL;
+
+     node = mxmlFindElement(xml,xml,name,NULL,NULL,MXML_DESCEND);
+     if(node == NULL){
+        perror("升级配置文件已被破坏");
+        return -1;
+     }
+    strcpy(node_val,node->child->value.text.string);
+
+    return 0;
+}
+
+void change_upxml(struct xmlVal *val){
+    FILE*fp = NULL;
+
+    mxml_node_t *xml = NULL;
+	mxml_node_t *data;
+	mxml_node_t *node;
+
+	xml = mxmlNewXML("1.0");
+	data = mxmlNewElement(xml, "data");
+	node = mxmlNewElement(data, "version");
+ 	mxmlNewText(node, 0, val->version);
+	node = mxmlNewElement(data, "time");
+ 	mxmlNewText(node, 0, val->time);
+	node = mxmlNewElement(data, "hash");
+	mxmlNewText(node, 0, val->hash_md5);
+	node = mxmlNewElement(data, "name");
+	mxmlNewText(node, 0, val->name);
+
+    while(fp == NULL){
+        fp = fopen("update.xml","w");
+    }
+    mxmlSaveFile(xml, fp, MXML_NO_CALLBACK);
+    fclose(fp);
+
+}

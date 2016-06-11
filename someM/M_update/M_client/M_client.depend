@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1451120512 source:/home/cy/try/someM/M_update/M_client/httprev.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httprev.h"
+
+1451115906 /home/cy/try/someM/M_update/M_client/httprev.h
+
+1451114573 source:/home/cy/try/someM/M_update/M_client/httpsend.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httpsend.h"
+
+1451047015 /home/cy/try/someM/M_update/M_client/httpsend.h
+
+1451650216 source:/home/cy/try/someM/M_update/M_client/resolve.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1451650234 /home/cy/try/someM/M_update/M_client/resolve.h
+
+1451650113 source:/home/cy/try/someM/M_update/M_client/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+	"httpsend.h"
+

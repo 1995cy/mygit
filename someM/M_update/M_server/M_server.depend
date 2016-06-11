@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1451805214 source:/home/cy/try/someM/M_update/M_server/main.c
+	<stdio.h>
+	<stdlib.h>
+	"select.h"
+
+1451910450 /home/cy/try/someM/M_update/M_server/select.h
+	"xmlget.h"
+
+1451805752 source:/home/cy/try/someM/M_update/M_server/select.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	<fcntl.h>
+	"select.h"
+
+1451803298 source:/home/cy/try/someM/M_update/M_server/xmlget.c
+	<mxml.h>
+	<stdio.h>
+	<stdlib.h>
+	"xmlget.h"
+
+1451812506 /home/cy/try/someM/M_update/M_server/xmlget.h
+	<mxml.h>
+
