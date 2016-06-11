@@ -1,0 +1,20 @@
+14:32:24 **** Build of configuration Debug for project module_httpdownloader ****
+make all 
+Building file: ../sourcefile/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourcefile/main.d" -MT"sourcefile/main.o" -o "sourcefile/main.o" "../sourcefile/main.c"
+../sourcefile/main.c: In function ‘main’:
+../sourcefile/main.c:13:2: warning: implicit declaration of function ‘try’ [-Wimplicit-function-declaration]
+  try();
+  ^
+Finished building: ../sourcefile/main.c
+ 
+Building file: ../sourcefile/try.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"sourcefile/try.d" -MT"sourcefile/try.o" -o "sourcefile/try.o" "../sourcefile/try.c"
+Finished building: ../sourcefile/try.c
+ 
+make: *** 没有规则可以创建“module_httpdownloader”需要的目标“main.o”。 停止。
+
+14:32:25 Build Finished (took 543ms)
+

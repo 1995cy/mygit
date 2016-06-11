@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1442135469 source:/home/cy/try/Linux_Net/Linux_Net/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	<fcntl.h>
+
+1442136387 source:/home/cy/try/Linux_Net/Linux_Net/tel_net.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<unistd.h>
+	<fcntl.h>
+
