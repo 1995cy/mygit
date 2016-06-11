@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;module_httpdownloader/h.c&apos; to &apos;t.c&apos;" description="Rename resource &apos;h.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="h.c" name="t.c" stamp="1450850037945" updateReferences="true"/>&#x0A;<refactoring comment="Move &apos;try.h&apos; to &apos;module_httpdownloader&apos;" description="Move &apos;try.h&apos; to &apos;module_httpdownloader&apos;" destination="/module_httpdownloader" element1="headfile/try.h" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1450852077545" updateReferences="true"/>
-</session>
