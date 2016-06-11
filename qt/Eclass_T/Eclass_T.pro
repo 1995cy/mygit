@@ -1,30 +1,34 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-05-03T21:03:38
+# Project created by QtCreator 2016-05-03T08:51:37
 #
 #-------------------------------------------------
 
 QT       += core gui
-QT       += network
+QT  += network
+#QT += testlib
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Eclass_s
+TARGET = Eclass_T
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    s_main.cpp \
-    desktop_show.cpp
+    student_list.cpp \
+    itemform.cpp \
+    helpdialog.cpp
 
 HEADERS  += mainwindow.h \
-    s_main.h \
-    desktop_show.h
+    student_list.h \
+    itemform.h \
+    helpdialog.h
 
 FORMS    += mainwindow.ui \
-    s_main.ui \
-    desktop_show.ui
+    student_list.ui \
+    itemform.ui \
+    helpdialog.ui
 
 RESOURCES += \
     image.qrc

@@ -1,9 +1,0 @@
-<RCC>
-    <qresource prefix="/new/prefix1">
-        <file>image/file.png</file>
-        <file>image/hands.png</file>
-        <file>image/sign_out.png</file>
-        <file>image/open_file.png</file>
-        <file>image/Student.png</file>
-    </qresource>
-</RCC>
