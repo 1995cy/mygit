@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1450959928 source:/home/cy/try/someM/M_httpDownloader/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1450960146 "
+
+1450854731 /home/cy/try/someM/M_httpDownloader/resolve.h
+
+1450960146 source:/home/cy/try/someM/M_httpDownloader/resolve.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1450960595 source:\\192.168.44.130\cy_share\somem\m_httpdownloader\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1450854731 \\192.168.44.130\cy_share\somem\m_httpdownloader\resolve.h
+
+1450960146 source:\\192.168.44.130\cy_share\somem\m_httpdownloader\resolve.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1451120117 source:/home/cy/try/someM/M_httpDownloader/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+	"httpsend.h"
+
+1451023603 /home/cy/try/someM/M_httpDownloader/resolve.h
+
+1451024848 source:/home/cy/try/someM/M_httpDownloader/resolve.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"resolve.h"
+
+1451041835 source:/home/cy/try/someM/M_httpDownloader/create_socket.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"http.h"
+
+1451045245 /home/cy/try/someM/M_httpDownloader/http.h
+
+1451047015 /home/cy/try/someM/M_httpDownloader/httpsend.h
+
+1451047167 source:/home/cy/try/someM/M_httpDownloader/socket_content.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httpsend.h"
+
+1451112309 source:/home/cy/try/someM/M_httpDownloader/http_down.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httprev.h"
+
+1451115906 /home/cy/try/someM/M_httpDownloader/httprev.h
+
+1451120512 source:/home/cy/try/someM/M_httpDownloader/httprev.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httprev.h"
+
+1451114573 source:/home/cy/try/someM/M_httpDownloader/httpsend.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<netdb.h>
+	"httpsend.h"
+
